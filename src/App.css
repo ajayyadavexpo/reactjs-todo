@@ -1,0 +1,50 @@
+body{
+  background-color: #1f4850;
+}
+
+
+.todoListMain .header input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #FFF;
+  width: 165px;
+}
+.todoListMain .header button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: #0066FF;
+  color: #FFF;
+  border: 2px solid #0066FF;
+}
+.todoListMain .header button:hover {
+  background-color: #003399;
+  border: 2px solid #003399;
+  cursor: pointer;
+}
+.todoListMain .theList {
+  list-style: none;
+  padding-left: 0;
+  width: 100%;
+} 
+
+.card{
+    background: #1384968a;
+    border: none;
+    color: white;
+}
+.btn-color{ background-color: #1384968a; color: white !important;}
+.form-control, .btn {
+    box-shadow: none !important;
+    outline: none !important;
+}
+.completed{
+  text-decoration: line-through;
+}
+.not_completed{
+  text-decoration: none;
+}
+hr{
+  border: 1px solid rgb(45 114 117 / 98%);
+}
